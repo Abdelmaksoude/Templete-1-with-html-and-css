@@ -1,0 +1,455 @@
+body
+{
+    background-color: lightslategray;
+    margin: 0;
+}
+.container
+{
+    width: 1070px;
+    margin: auto;
+   /* background: darkslategray; */
+}
+.header .slider
+{
+    background-image: url('../img/images/popup-video-poster-01-1170x600.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.header .slider .intro
+{
+    padding-top: 200px;
+    text-align: center;
+}
+.header .slider .intro h2
+{
+    margin: 0 auto;
+    width: 600px;
+    text-transform: capitalize;
+    font-size: 50px;
+    border-top: 4px solid rgb(46, 45, 45);
+    border-bottom: 4px solid rgb(46, 45, 45);
+    padding: 5px 0;
+}
+.header .slider .intro button
+{
+    margin-top: 25px;
+    border: 2px solid rgb(46, 45, 45);
+    width: 100px;
+    height: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+}
+.header .navbar 
+{
+    background-color: darkslategray;
+    color: #FFF;
+    overflow: hidden;
+}
+.header .navbar h2 
+{
+    float: left;
+    text-transform: uppercase ;
+}
+.header .navbar h2 span
+{
+    color: green;
+}
+.header .navbar ul 
+{
+    padding-left: 0;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li 
+{
+    float: left;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.header .navbar ul li a
+{
+    text-decoration: none;
+}
+.header .navbar ul li a:hover
+{
+    color: green;
+}
+.feauture 
+{
+    overflow: hidden;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.feauture .feat 
+{
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+    background-color: dimgray;
+}
+.feauture .feat h2 
+{
+    text-transform: capitalize;
+}
+.feauture .feat p 
+{
+ line-height: normal;
+}
+.about_me 
+{
+    height: 425px;
+    overflow: hidden;
+    background-color: rgb(115, 123, 134);
+}
+.about_me .image 
+{
+    float: left;
+    width: 40%;
+}
+.about_me .image img
+{
+    width: 425px;
+    height: 425px;
+}
+.about_me .info 
+{
+    float: left;
+    width: 60%;
+}
+.about_me .info h2 
+{
+padding-left: 50px;
+text-transform: capitalize;
+}
+.about_me .info > p 
+{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.about_me .info .hobbies
+{
+    overflow: hidden;
+    margin: 23px;
+}
+.about_me .info .hobbies > div
+{
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 40%;
+    min-height: 100px;
+    float: left;
+}
+.about_me .info .hobbies p
+{
+    font-size: 15px;
+}
+.my_skills
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my_skills .skills , .my_skills .progress
+{
+padding-left: 40px;
+float:left;
+width: 40%;
+}
+.my_skills .skills h2 
+{
+    text-transform: capitalize;
+}
+.my_skills .skills button
+{
+    text-transform: capitalize;
+    border: 3px solid green;
+    color: green;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.my_skills .progress h2
+{
+text-transform: capitalize;
+}
+.my_skills .progress .nespa
+{
+    height: 30px;
+    width: 500px;
+    background-color: burlywood;
+}
+.my_skills .progress .nespa .nes 
+{
+    height: 30px;
+    width: 450px;
+    background-color: green;  
+    position: relative;
+}
+.my_skills .progress .nespa .nes h4
+{
+position: absolute; 
+top: 0px;
+right: 0px;
+}
+.my_skills .progress .nespa .ness 
+{
+    height: 30px;
+    width: 400px;
+    background-color: green;  
+    position: relative;
+}
+.my_skills .progress .nespa .nesss 
+{
+    height: 30px;
+    width: 350px;
+    background-color: green;  
+    position: relative;
+}
+.resume
+{
+    overflow: hidden;
+    padding-bottom: 30px;
+    background-color: grey;
+    text-align: center;
+}
+.resume h2
+{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 25px;
+}
+.resume p
+{
+    text-align: center;
+}
+.resume button
+{
+    width: 200px;
+    border: 3px solid green;
+    text-transform: capitalize;
+    color: green;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+}
+.my_education
+{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my_education .education , .my_education .experance
+{
+float: left;
+width: 50%;
+}
+.my_education .experance
+{
+    padding-top: 45px;
+}
+.my_education .education h2
+{
+    text-transform: capitalize;
+}
+.my_education .education p 
+{
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.my_education .experance h2 
+{
+    text-transform: capitalize;
+}
+.my_education .experance button
+{
+    border: 1px solid green;
+    width: 65px;
+    background-color: green;
+}
+.my_education .experance p 
+{
+    line-height: 25px;
+}
+.work_expression
+{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.work_expression .work , .work_expression .expression 
+{
+float: left;
+width: 50%;
+}
+.work_expression .expression
+{
+    padding-top: 45px;
+}
+.work_expression .work h2
+{
+    text-transform: capitalize;
+}
+.work_expression .work p
+{
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.work_expression .expression h2
+{
+    text-transform: capitalize;
+}
+.work_expression .expression p 
+{
+    line-height: 25px;
+}
+.work_expression .expression button
+{
+    border: 1px solid green;
+    width: 65px;
+    background-color: green;
+}
+.pragraph
+{
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: grey;
+    text-align: center;
+}
+.pragraph .aa , .pragraph .a , .pragraph .a
+{
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 7px;
+    display: inline-block;
+}
+.pragraph .aa
+{
+    background-color: green;
+}
+.pragraph .a , .pragraph .a
+{
+    background-color: ivory;
+}
+.profinal
+{
+    
+    padding-top:30px;
+    padding-bottom: 30px;
+   text-align: center;
+}
+.profinal h2
+{
+    text-transform: capitalize;
+}
+.profinal p
+{
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+.profinal .our_work
+{
+    overflow: hidden;
+}
+.profinal .our_work > div
+{
+    float: left;
+    width: 32%;
+}
+.profinal .our_work > div img
+{
+    width: 310px;
+    height: 270px;
+    padding-bottom: 20px;
+}
+.footer
+{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(48, 43, 43);
+}
+.footer .part1 , .footer .part2 
+{
+    float: left;;
+    width: 50%;
+}
+.footer .part2 
+{
+    padding-bottom: 45px;
+}
+.footer .part1 h2
+{
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .part1 p
+{
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+.footer .part1 p
+{
+    color: rgb(104, 103, 103);
+}
+.footer .part1  .e1 , .footer .part1  .e2 , .footer .part1  .e3, .footer .part1  .e4
+{
+    display: inline;
+    padding-bottom: 20px;
+}
+.footer .part1  .e3, .footer .part1  .e4
+{
+    padding-left: 20px;
+}
+.footer .part2 label
+{
+    padding-bottom: 15px;
+    color: white;
+}
+.footer .part2 input
+{
+    width: 300px;
+    height: 30px;
+}.footer .part2 textarea
+{
+    width: 350px;
+    height: 250px;
+}
+.footer .part2 .submit
+{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(22, 20, 20);;
+}
+.end 
+{
+    overflow: hidden;
+    background-color: rgb(22, 20, 20) ;
+    text-align: center;
+}
+.end h3
+{
+    color: wheat;
+}
+.end .icons img
+{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    
+}
